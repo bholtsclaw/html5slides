@@ -83,14 +83,14 @@ body {
 }
 
 .slides.template-ubuntu > article:not(.nobackground):not(.biglogo) {
-  background: url(http://bholtsclaw.github.com/html5slides/images/ubuntu-logo-small.png) 710px 625px no-repeat;  
+  background: url('http://bholtsclaw.github.com/html5slides/images/ubuntu-logo-small.png') 710px 625px no-repeat;  
   
   background-color: white;  
 } 
 
 .slides.template-juju > article:not(.nobackground):not(.biglogo) {
-  background: url(http://bholtsclaw.github.com/html5slides/images/colorbar.png) 0 600px repeat-x,
-              url(http://bholtsclaw.github.com/html5slides/images/juju-logo.png) 640px 625px no-repeat;
+  background: url('http://bholtsclaw.github.com/html5slides/images/colorbar.png') 0 600px repeat-x,
+              url('http://bholtsclaw.github.com/html5slides/images/juju-logo.png') 640px 625px no-repeat;
 
   background-size: 100%, 225px;  
 
@@ -141,11 +141,11 @@ body {
 /* Slide styles */
 
 .slides.template-ubuntu article.biglogo {
-  background: white url(http://bholtsclaw.github.com/html5slides/images/ubuntu-logo.png) 50% 50% no-repeat;
+  background: white url('http://bholtsclaw.github.com/html5slides/images/ubuntu-logo.png') 50% 50% no-repeat;
 }
 
 .slides.template-juju article.biglogo {
-  background: white url(http://bholtsclaw.github.com/html5slides/images/juju-logo.png) 50% 50% no-repeat;
+  background: white url('http://bholtsclaw.github.com/html5slides/images/juju-logo.png') 50% 50% no-repeat;
 
   background-size: 600px;
 }
